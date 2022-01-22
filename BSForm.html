@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form using Bootstrap</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-sm mt-4">     
+        <label for=""></label><b>Name <span class="asterik">*</span></b></label><br>
+        <div class="row" id="flinput-row">      
+            <input type="text" id="fname"><br>
+            <input type="text" id="lname"><br>  
+        </div>
+        <div class="row" id="fllabel-row">
+            <label for="" class="flabel"><small>First</small></label>
+            <label for="" class="llabel"><small>Last</small></label>
+        </div>
+        <div>
+            <label for=""><b>Email <span class="asterik">*</span></b></label><br>
+            <input type="email" id="email">
+        </div>
+        <br>
+        <div class="rating">
+            <label for=""><b>Your Experience <span class="asterik">*</span></b></label><br>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+        </div>
+        <br>
+        <p id="pp">Overall, how would you rate your experience with us ?</p>
+        <div class="mt-3">
+            <label for=""><b>How satisfied are you with <span class="asterik">*</span></b></label>
+            <table id="table-1">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Very Unsatisfied</th>
+                        <th>Unsatisfied</th>
+                        <th>Neutral</th>
+                        <th>Satisfied</th>
+                        <th>Very Satisfied</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody-1">
+                    <tr>
+                        <td class="row-head-1">Purchase</td>
+                        <td><span><input type="radio" name="radio" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio" class="radio-btn"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="row-head-1">Service</td>
+                        <td><span><input type="radio" name="radio-1" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio-1" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio-1" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio-1" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio-1" class="radio-btn"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="row-head-1">Company Overall</td>
+                        <td><span><input type="radio" name="radio-2" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio-2" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio-2" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio-2" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio-2" class="radio-btn"></span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="mt-4">
+            <label for=""><b>How satisfied are you with <span class="asterik">*</span></b></label>
+            <table id="table-1">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Very Unlikely</th>
+                        <th>Unlikely</th>
+                        <th>Neutral</th>
+                        <th>Likely</th>
+                        <th>Very Likely</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody-2">
+                    <tr>
+                        <td class="row-head-2">Buy from us again</td>
+                        <td><span><input type="radio" name="radio" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio" class="radio-btn"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="row-head-2">Recommend our product to others</td>
+                        <td><span><input type="radio" name="radio-1" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio-1" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio-1" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio-1" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio-1" class="radio-btn"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="row-head-2">Recommend our company to others</td>
+                        <td><span><input type="radio" name="radio-2" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio-2" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio-2" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio-2" class="radio-btn"></span></td>
+                        <td><span><input type="radio" name="radio-2" class="radio-btn"></span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="mt-3">
+            <label for=""><b>Additional comments or suggestions</b></label><br>
+            <textarea name="" id="" cols="125" rows="5"></textarea><br>
+            <button class="btn btn-danger mt-2 mb-3">Submit</button>
+        </div>
+            
+        
+    </div>
+</body>
+</html>

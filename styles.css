@@ -1,0 +1,56 @@
+input[type="text"]{
+    margin-left: 15px;
+    width:200px;
+}
+#email{
+    width:415px;
+}
+label.flabel{
+    margin-left: 15px;
+}
+label.llabel{
+    margin-left: 192px;
+}
+.asterik{
+    color:red;
+}
+span[class="fa fa-star checked"]{
+    font-size: 20px;
+    color: rgb(245, 139, 139);
+    margin: 2px;
+}
+#pp{
+    letter-spacing: -1px;
+}
+table{
+    border: none;
+}
+th{
+    padding-left: 20px;
+}
+td{
+    text-align:center;
+}
+th,td{
+    border:none;
+    padding-right:40px ;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.row-head-1{
+    text-align:left;
+    padding-right: 85px;
+}
+.row-head-2{
+    text-align:left;
+    
+}
+.tbody-1 tr:nth-child(odd){
+    background-color:rgba(209, 206, 206, 0.5);
+}
+.tbody-2 tr:nth-child(odd){
+    background-color:rgba(209, 206, 206, 0.5);
+}
+.radio-btn{
+    border: 3px solid black;
+}
